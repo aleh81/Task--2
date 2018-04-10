@@ -16,11 +16,11 @@ namespace Task2.UI
             }
             catch (Exception e)
             {
-                System.Console.BackgroundColor = ConsoleColor.Red;
-                System.Console.WriteLine(e.Message);
+                Console.BackgroundColor = ConsoleColor.Red;
+                Console.WriteLine(e.Message);
             }
 
-            System.Console.ReadKey();
+            Console.ReadKey();
         }
     }
 }
