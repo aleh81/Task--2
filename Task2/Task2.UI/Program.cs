@@ -11,7 +11,8 @@ namespace Task2.UI
         {
             try
             {
-                Newton.CompareResult(9, 7, eps);
+                Newton.CompareResult(9, 3, eps);
+                Console.WriteLine("-------------------------------");
                 Converter.BitConverter(10);
             }
             catch (Exception e)
